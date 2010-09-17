@@ -64,6 +64,10 @@ typedef enum {
 /** Connection's current status */
 @property (readonly) TCPConnectionStatus status;
 
+- (id<TCPConnectionDelegate>)delegate;
+- (void)setDelegate:(id<TCPConnectionDelegate>)value;
+
+
 /** Opens the connection. This happens asynchronously; wait for a delegate method to be called.
     You don't need to open incoming connections received via a TCPListener. */
 - (void) open;
