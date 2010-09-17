@@ -44,11 +44,14 @@
 - (id) initWithPort: (UInt16)port;
 
 /** The subclass of TCPConnection that will be instantiated. */
-@property Class connectionClass;
+@property (assign) Class connectionClass;
 
 /** Delegate object that will be called when interesting things happen to the listener --
     most importantly, when a new incoming connection is accepted. */
-@property (assign) id<TCPListenerDelegate> delegate;
+
+- (id<TCPListenerDelegate>)delegate;
+- (void)setDelegate:(id<TCPListenerDelegate>)value;
+
 
 /** Should the server listen for IPv6 connections (on the same port number)? Defaults to NO. */
 @property BOOL useIPv6;

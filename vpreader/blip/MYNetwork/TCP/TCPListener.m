@@ -52,7 +52,7 @@ static void TCPListenerAcceptCallBack(CFSocketRef socket, CFSocketCallBackType t
 }
 
 
-@synthesize delegate=_delegate, port=_port, useIPv6=_useIPv6,
+@synthesize port=_port, useIPv6=_useIPv6,
             bonjourServiceType=_bonjourServiceType,
             bonjourPublished=_bonjourPublished, bonjourError=_bonjourError,
             bonjourService=_netService,
@@ -62,6 +62,18 @@ static void TCPListenerAcceptCallBack(CFSocketRef socket, CFSocketCallBackType t
 - (NSString*) description
 {
     return $sprintf(@"%@[port %hu]",self.class,_port);
+}
+
+
+- (id) delegate {
+    return _delegate;
+}
+
+- (void)setDelegate:(id)value {
+    if (_delegate != value) {
+        [_delegate release];
+        _delegate = [value retain];
+    }
 }
 
 
