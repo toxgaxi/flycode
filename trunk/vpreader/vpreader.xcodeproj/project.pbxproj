@@ -23,6 +23,14 @@
 		CC1C89F10F18387F00E71072 /* SyncViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC1C89F00F18387F00E71072 /* SyncViewController.xib */; };
 		CC1C89F50F18389F00E71072 /* SyncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C89F40F18389F00E71072 /* SyncViewController.m */; };
 		CC6A37D10F1AAACC006A09B6 /* VPReader.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6A37D00F1AAACC006A09B6 /* VPReader.png */; };
+		CCAE4D4312440B85009BA635 /* MYAddressLookup.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAE4D3A12440B85009BA635 /* MYAddressLookup.m */; };
+		CCAE4D4412440B85009BA635 /* MYBonjourBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAE4D3C12440B85009BA635 /* MYBonjourBrowser.m */; };
+		CCAE4D4512440B85009BA635 /* MYBonjourQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAE4D3E12440B85009BA635 /* MYBonjourQuery.m */; };
+		CCAE4D4612440B85009BA635 /* MYBonjourRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAE4D4012440B85009BA635 /* MYBonjourRegistration.m */; };
+		CCAE4D4712440B85009BA635 /* MYBonjourService.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAE4D4212440B85009BA635 /* MYBonjourService.m */; };
+		CCAE4D6212440C6C009BA635 /* MYDNSService.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAE4D5F12440C6C009BA635 /* MYDNSService.m */; };
+		CCAE4D6312440C6C009BA635 /* MYPortMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAE4D6112440C6C009BA635 /* MYPortMapper.m */; };
+		CCAE4D6812440C90009BA635 /* ConcurrentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAE4D6712440C90009BA635 /* ConcurrentOperation.m */; };
 		CCC14B950F184494004BD04E /* IPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC14B660F184494004BD04E /* IPAddress.m */; };
 		CCC14B960F184494004BD04E /* TCPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC14B690F184494004BD04E /* TCPConnection.m */; };
 		CCC14B970F184494004BD04E /* TCPEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC14B6B0F184494004BD04E /* TCPEndpoint.m */; };
@@ -71,6 +79,22 @@
 		CC1C89F30F18389F00E71072 /* SyncViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncViewController.h; sourceTree = "<group>"; };
 		CC1C89F40F18389F00E71072 /* SyncViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncViewController.m; sourceTree = "<group>"; };
 		CC6A37D00F1AAACC006A09B6 /* VPReader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VPReader.png; path = res/VPReader.png; sourceTree = "<group>"; };
+		CCAE4D3912440B85009BA635 /* MYAddressLookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYAddressLookup.h; sourceTree = "<group>"; };
+		CCAE4D3A12440B85009BA635 /* MYAddressLookup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYAddressLookup.m; sourceTree = "<group>"; };
+		CCAE4D3B12440B85009BA635 /* MYBonjourBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYBonjourBrowser.h; sourceTree = "<group>"; };
+		CCAE4D3C12440B85009BA635 /* MYBonjourBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYBonjourBrowser.m; sourceTree = "<group>"; };
+		CCAE4D3D12440B85009BA635 /* MYBonjourQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYBonjourQuery.h; sourceTree = "<group>"; };
+		CCAE4D3E12440B85009BA635 /* MYBonjourQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYBonjourQuery.m; sourceTree = "<group>"; };
+		CCAE4D3F12440B85009BA635 /* MYBonjourRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYBonjourRegistration.h; sourceTree = "<group>"; };
+		CCAE4D4012440B85009BA635 /* MYBonjourRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYBonjourRegistration.m; sourceTree = "<group>"; };
+		CCAE4D4112440B85009BA635 /* MYBonjourService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYBonjourService.h; sourceTree = "<group>"; };
+		CCAE4D4212440B85009BA635 /* MYBonjourService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYBonjourService.m; sourceTree = "<group>"; };
+		CCAE4D5E12440C6C009BA635 /* MYDNSService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MYDNSService.h; path = blip/MYNetwork/PortMapper/MYDNSService.h; sourceTree = "<group>"; };
+		CCAE4D5F12440C6C009BA635 /* MYDNSService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MYDNSService.m; path = blip/MYNetwork/PortMapper/MYDNSService.m; sourceTree = "<group>"; };
+		CCAE4D6012440C6C009BA635 /* MYPortMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MYPortMapper.h; path = blip/MYNetwork/PortMapper/MYPortMapper.h; sourceTree = "<group>"; };
+		CCAE4D6112440C6C009BA635 /* MYPortMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MYPortMapper.m; path = blip/MYNetwork/PortMapper/MYPortMapper.m; sourceTree = "<group>"; };
+		CCAE4D6612440C90009BA635 /* ConcurrentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConcurrentOperation.h; path = ../../../Downloads/myutilities/ConcurrentOperation.h; sourceTree = SOURCE_ROOT; };
+		CCAE4D6712440C90009BA635 /* ConcurrentOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConcurrentOperation.m; path = ../../../Downloads/myutilities/ConcurrentOperation.m; sourceTree = SOURCE_ROOT; };
 		CCC14B650F184494004BD04E /* IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IPAddress.h; path = blip/MYNetwork/IPAddress.h; sourceTree = "<group>"; };
 		CCC14B660F184494004BD04E /* IPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IPAddress.m; path = blip/MYNetwork/IPAddress.m; sourceTree = "<group>"; };
 		CCC14B680F184494004BD04E /* TCPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPConnection.h; sourceTree = "<group>"; };
@@ -213,9 +237,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CCAE4D3812440B85009BA635 /* Bonjour */ = {
+			isa = PBXGroup;
+			children = (
+				CCAE4D3912440B85009BA635 /* MYAddressLookup.h */,
+				CCAE4D3A12440B85009BA635 /* MYAddressLookup.m */,
+				CCAE4D3B12440B85009BA635 /* MYBonjourBrowser.h */,
+				CCAE4D3C12440B85009BA635 /* MYBonjourBrowser.m */,
+				CCAE4D3D12440B85009BA635 /* MYBonjourQuery.h */,
+				CCAE4D3E12440B85009BA635 /* MYBonjourQuery.m */,
+				CCAE4D3F12440B85009BA635 /* MYBonjourRegistration.h */,
+				CCAE4D4012440B85009BA635 /* MYBonjourRegistration.m */,
+				CCAE4D4112440B85009BA635 /* MYBonjourService.h */,
+				CCAE4D4212440B85009BA635 /* MYBonjourService.m */,
+			);
+			name = Bonjour;
+			path = blip/MYNetwork/Bonjour;
+			sourceTree = "<group>";
+		};
 		CCC14B640F184494004BD04E /* MYNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				CCAE4D5E12440C6C009BA635 /* MYDNSService.h */,
+				CCAE4D5F12440C6C009BA635 /* MYDNSService.m */,
+				CCAE4D6012440C6C009BA635 /* MYPortMapper.h */,
+				CCAE4D6112440C6C009BA635 /* MYPortMapper.m */,
+				CCAE4D3812440B85009BA635 /* Bonjour */,
 				CCC14B650F184494004BD04E /* IPAddress.h */,
 				CCC14B660F184494004BD04E /* IPAddress.m */,
 				CCC14B670F184494004BD04E /* TCP */,
@@ -273,6 +320,8 @@
 				CCC14B860F184494004BD04E /* MYUtilities_Prefix.pch */,
 				CCC14B870F184494004BD04E /* CollectionUtils.h */,
 				CCC14B880F184494004BD04E /* CollectionUtils.m */,
+				CCAE4D6612440C90009BA635 /* ConcurrentOperation.h */,
+				CCAE4D6712440C90009BA635 /* ConcurrentOperation.m */,
 				CCC14B890F184494004BD04E /* ExceptionUtils.h */,
 				CCC14B8A0F184494004BD04E /* ExceptionUtils.m */,
 				CCC14B8B0F184494004BD04E /* Logging.h */,
@@ -391,6 +440,14 @@
 				CCC14BA70F184494004BD04E /* Test.m in Sources */,
 				CCC14BA80F184494004BD04E /* GTMNSData+zlib.m in Sources */,
 				CCC14E630F188A27004BD04E /* WebViewController.m in Sources */,
+				CCAE4D4312440B85009BA635 /* MYAddressLookup.m in Sources */,
+				CCAE4D4412440B85009BA635 /* MYBonjourBrowser.m in Sources */,
+				CCAE4D4512440B85009BA635 /* MYBonjourQuery.m in Sources */,
+				CCAE4D4612440B85009BA635 /* MYBonjourRegistration.m in Sources */,
+				CCAE4D4712440B85009BA635 /* MYBonjourService.m in Sources */,
+				CCAE4D6212440C6C009BA635 /* MYDNSService.m in Sources */,
+				CCAE4D6312440C6C009BA635 /* MYPortMapper.m in Sources */,
+				CCAE4D6812440C90009BA635 /* ConcurrentOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
