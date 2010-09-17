@@ -9,7 +9,7 @@
 #import "TCPEndpoint.h"
 #import <Security/Security.h>
 @class IPAddress;
-@class TCPReader, TCPWriter, TCPListener;
+@class TCPReader, TCPWriter, TCPListener, MYBonjourService;
 @protocol TCPConnectionDelegate;
 
 
@@ -47,6 +47,10 @@ typedef enum {
     If the service's address cannot be resolved, nil is returned. */
 - (id) initToNetService: (NSNetService*)service;
 
+/** Initializes a TCPConnection to the given MYBonjourService's address and port.
+    If the service's address cannot be resolved, nil is returned. */
+- (id) initToBonjourService: (MYBonjourService*)service;
+
 /** Initializes a TCPConnection from an incoming TCP socket.
     You don't usually need to call this; TCPListener does it automatically. */
 - (id) initIncomingFromSocket: (CFSocketNativeHandle)socket listener: (TCPListener*)listener;
@@ -63,10 +67,6 @@ typedef enum {
 
 /** Connection's current status */
 @property (readonly) TCPConnectionStatus status;
-
-- (id<TCPConnectionDelegate>)delegate;
-- (void)setDelegate:(id<TCPConnectionDelegate>)value;
-
 
 /** Opens the connection. This happens asynchronously; wait for a delegate method to be called.
     You don't need to open incoming connections received via a TCPListener. */
@@ -131,6 +131,7 @@ typedef enum {
     settings say to check the peer's certificate.
     This happens, if at all, after the -connectionDidOpen: call. */
 - (BOOL) connection: (TCPConnection*)connection authorizeSSLPeer: (SecCertificateRef)peerCert;
-/** Called after the connection closes. */
+/** Called after the connection closes.
+    You can check the connection's error property to see if it was normal or abnormal. */
 - (void) connectionDidClose: (TCPConnection*)connection;
 @end

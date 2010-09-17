@@ -36,14 +36,14 @@
 	};
 	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1237, 2400}}";
-			sepNavSelRange = "{3164, 0}";
-			sepNavVisRange = "{2726, 2209}";
+			sepNavIntBoundsRect = "{{0, 0}, {923, 2355}}";
+			sepNavSelRange = "{3155, 0}";
+			sepNavVisRange = "{3124, 117}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeArchitecturePreference = armv6;
-		activeBuildConfigurationName = Distribution;
+		activeBuildConfigurationName = Debug;
 		activeExecutable = CC1C89BA0F182CED00E71072 /* vpreader */;
 		activeSDKPreference = iphoneos4.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* vpreader */;
@@ -99,8 +99,42 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 306439520;
-			PBXWorkspaceStateSaveDate = 306439520;
+			PBXPerProjectTemplateStateSaveDate = 306447725;
+			PBXWorkspaceStateSaveDate = 306447725;
+		};
+		perUserProjectItems = {
+			CCAE4CF212440582009BA635 /* PBXTextBookmark */ = CCAE4CF212440582009BA635 /* PBXTextBookmark */;
+			CCAE4D0B124405D5009BA635 /* PBXTextBookmark */ = CCAE4D0B124405D5009BA635 /* PBXTextBookmark */;
+			CCAE4D111244060F009BA635 /* PBXTextBookmark */ = CCAE4D111244060F009BA635 /* PBXTextBookmark */;
+			CCAE4D1412440622009BA635 /* PBXTextBookmark */ = CCAE4D1412440622009BA635 /* PBXTextBookmark */;
+			CCAE4D3512440B51009BA635 /* XCBuildMessageTextBookmark */ = CCAE4D3512440B51009BA635 /* XCBuildMessageTextBookmark */;
+			CCAE4D3612440B51009BA635 /* PBXTextBookmark */ = CCAE4D3612440B51009BA635 /* PBXTextBookmark */;
+			CCAE4D5312440BF1009BA635 /* PBXTextBookmark */ = CCAE4D5312440BF1009BA635 /* PBXTextBookmark */;
+			CCAE4D5412440BF1009BA635 /* XCBuildMessageTextBookmark */ = CCAE4D5412440BF1009BA635 /* XCBuildMessageTextBookmark */;
+			CCAE4D5512440BF1009BA635 /* PBXTextBookmark */ = CCAE4D5512440BF1009BA635 /* PBXTextBookmark */;
+			CCAE4D5B12440C65009BA635 /* PBXTextBookmark */ = CCAE4D5B12440C65009BA635 /* PBXTextBookmark */;
+			CCAE4D5C12440C65009BA635 /* XCBuildMessageTextBookmark */ = CCAE4D5C12440C65009BA635 /* XCBuildMessageTextBookmark */;
+			CCAE4D5D12440C65009BA635 /* PBXTextBookmark */ = CCAE4D5D12440C65009BA635 /* PBXTextBookmark */;
+			CCAE4D6B12440CA1009BA635 /* PBXTextBookmark */ = CCAE4D6B12440CA1009BA635 /* PBXTextBookmark */;
+			CCAE4D6E12440CAE009BA635 /* XCBuildMessageTextBookmark */ = CCAE4D6E12440CAE009BA635 /* XCBuildMessageTextBookmark */;
+			CCAE4D6F12440CAE009BA635 /* PBXTextBookmark */ = CCAE4D6F12440CAE009BA635 /* PBXTextBookmark */;
+			CCAE4D7012440CAE009BA635 /* PBXTextBookmark */ = CCAE4D7012440CAE009BA635 /* PBXTextBookmark */;
+			CCAE4D7712440CE6009BA635 /* XCBuildMessageTextBookmark */ = CCAE4D7712440CE6009BA635 /* XCBuildMessageTextBookmark */;
+			CCAE4D7812440CE6009BA635 /* PBXTextBookmark */ = CCAE4D7812440CE6009BA635 /* PBXTextBookmark */;
+			CCAE4D7912440CE6009BA635 /* PBXTextBookmark */ = CCAE4D7912440CE6009BA635 /* PBXTextBookmark */;
+			CCAE4D7C12440CE9009BA635 /* PBXTextBookmark */ = CCAE4D7C12440CE9009BA635 /* PBXTextBookmark */;
+			CCAE4D7D12440CE9009BA635 /* PBXTextBookmark */ = CCAE4D7D12440CE9009BA635 /* PBXTextBookmark */;
+			CCAE4D8612440D2B009BA635 /* PBXTextBookmark */ = CCAE4D8612440D2B009BA635 /* PBXTextBookmark */;
+			CCAE4D8712440D2B009BA635 /* PBXTextBookmark */ = CCAE4D8712440D2B009BA635 /* PBXTextBookmark */;
+			CCAE4D8812440D2B009BA635 /* PBXTextBookmark */ = CCAE4D8812440D2B009BA635 /* PBXTextBookmark */;
+			CCAE4D8912440D2B009BA635 /* PBXTextBookmark */ = CCAE4D8912440D2B009BA635 /* PBXTextBookmark */;
+			CCAE4D8A12440D2B009BA635 /* XCBuildMessageTextBookmark */ = CCAE4D8A12440D2B009BA635 /* XCBuildMessageTextBookmark */;
+			CCAE4D8B12440D2B009BA635 /* PBXTextBookmark */ = CCAE4D8B12440D2B009BA635 /* PBXTextBookmark */;
+			CCAE4D8C12440D2B009BA635 /* PBXTextBookmark */ = CCAE4D8C12440D2B009BA635 /* PBXTextBookmark */;
+			CCAE4D8F12440D2D009BA635 /* PBXTextBookmark */ = CCAE4D8F12440D2D009BA635 /* PBXTextBookmark */;
+			CCAE4D9012440D2D009BA635 /* PBXTextBookmark */ = CCAE4D9012440D2D009BA635 /* PBXTextBookmark */;
+			CCAE4D9112440D2D009BA635 /* PBXTextBookmark */ = CCAE4D9112440D2D009BA635 /* PBXTextBookmark */;
+			CCAE4D9412440D3B009BA635 /* PBXTextBookmark */ = CCAE4D9412440D3B009BA635 /* PBXTextBookmark */;
 		};
 		sourceControlManager = CC1C89D40F182D2100E71072 /* Source Control */;
 		userBuildSettings = {
@@ -166,10 +200,346 @@
 	};
 	CC1C89F40F18389F00E71072 /* SyncViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1123, 3178}}";
-			sepNavSelRange = "{6853, 0}";
-			sepNavVisRange = "{4475, 2535}";
+			sepNavIntBoundsRect = "{{0, 0}, {923, 3390}}";
+			sepNavSelRange = "{4562, 0}";
+			sepNavVisRange = "{4559, 144}";
 		};
+	};
+	CCAE4CF212440582009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCC14B6F0F184494004BD04E /* TCPStream.m */;
+		rLen = 30;
+		rLoc = 268;
+		rType = 0;
+	};
+	CCAE4D0B124405D5009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCC14B6F0F184494004BD04E /* TCPStream.m */;
+		name = "TCPStream.m: 17";
+		rLen = 30;
+		rLoc = 268;
+		rType = 0;
+		vrLen = 180;
+		vrLoc = 200;
+	};
+	CCAE4D111244060F009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCC14B6F0F184494004BD04E /* TCPStream.m */;
+		name = "TCPStream.m: 316";
+		rLen = 0;
+		rLoc = 8522;
+		rType = 0;
+		vrLen = 393;
+		vrLoc = 261;
+	};
+	CCAE4D1412440622009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCC14B6F0F184494004BD04E /* TCPStream.m */;
+		name = "TCPStream.m: 18";
+		rLen = 30;
+		rLoc = 268;
+		rType = 0;
+		vrLen = 375;
+		vrLoc = 220;
+	};
+	CCAE4D3512440B51009BA635 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Request for member 'domain' in something not a structure or union";
+		fRef = CCC14B690F184494004BD04E /* TCPConnection.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 106;
+		rType = 1;
+	};
+	CCAE4D3612440B51009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCC14B690F184494004BD04E /* TCPConnection.m */;
+		name = "TCPConnection.m: 107";
+		rLen = 0;
+		rLoc = 2989;
+		rType = 0;
+		vrLen = 320;
+		vrLoc = 2930;
+	};
+	CCAE4D3A12440B85009BA635 /* MYAddressLookup.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {732, 3015}}";
+			sepNavSelRange = "{2661, 5}";
+			sepNavVisRange = "{2538, 342}";
+		};
+	};
+	CCAE4D4112440B85009BA635 /* MYBonjourService.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {923, 1770}}";
+			sepNavSelRange = "{137, 0}";
+			sepNavVisRange = "{133, 89}";
+		};
+	};
+	CCAE4D4212440B85009BA635 /* MYBonjourService.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {923, 4290}}";
+			sepNavSelRange = "{252, 19}";
+			sepNavVisRange = "{193, 146}";
+		};
+	};
+	CCAE4D5312440BF1009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCC14B690F184494004BD04E /* TCPConnection.m */;
+		name = "TCPConnection.m: 107";
+		rLen = 0;
+		rLoc = 2989;
+		rType = 0;
+		vrLen = 320;
+		vrLoc = 2930;
+	};
+	CCAE4D5412440BF1009BA635 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "MYDNSService.h: No such file or directory";
+		fRef = CCAE4D4112440B85009BA635 /* MYBonjourService.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 8;
+		rType = 1;
+	};
+	CCAE4D5512440BF1009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCAE4D4112440B85009BA635 /* MYBonjourService.h */;
+		name = "MYBonjourService.h: 9";
+		rLen = 0;
+		rLoc = 137;
+		rType = 0;
+		vrLen = 89;
+		vrLoc = 133;
+	};
+	CCAE4D5B12440C65009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCC14B690F184494004BD04E /* TCPConnection.m */;
+		name = "TCPConnection.m: 107";
+		rLen = 0;
+		rLoc = 2989;
+		rType = 0;
+		vrLen = 320;
+		vrLoc = 2930;
+	};
+	CCAE4D5C12440C65009BA635 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "MYDNSService.h: No such file or directory";
+		fRef = CCAE4D4112440B85009BA635 /* MYBonjourService.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 8;
+		rType = 1;
+	};
+	CCAE4D5D12440C65009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCAE4D4112440B85009BA635 /* MYBonjourService.h */;
+		name = "MYBonjourService.h: 9";
+		rLen = 0;
+		rLoc = 137;
+		rType = 0;
+		vrLen = 89;
+		vrLoc = 133;
+	};
+	CCAE4D6112440C6C009BA635 /* MYPortMapper.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1237, 3465}}";
+			sepNavSelRange = "{1467, 20}";
+			sepNavVisRange = "{811, 1702}";
+		};
+	};
+	CCAE4D6B12440CA1009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCAE4D3A12440B85009BA635 /* MYAddressLookup.m */;
+		rLen = 5;
+		rLoc = 2661;
+		rType = 0;
+	};
+	CCAE4D6E12440CAE009BA635 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "ConcurrentOperation.h: No such file or directory";
+		fRef = CCAE4D4212440B85009BA635 /* MYBonjourService.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 12;
+		rType = 1;
+	};
+	CCAE4D6F12440CAE009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCAE4D4212440B85009BA635 /* MYBonjourService.m */;
+		name = "MYBonjourService.m: 13";
+		rLen = 19;
+		rLoc = 252;
+		rType = 0;
+		vrLen = 146;
+		vrLoc = 193;
+	};
+	CCAE4D7012440CAE009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCAE4D3A12440B85009BA635 /* MYAddressLookup.m */;
+		name = "MYAddressLookup.m: 114";
+		rLen = 5;
+		rLoc = 2661;
+		rType = 0;
+		vrLen = 342;
+		vrLoc = 2538;
+	};
+	CCAE4D7712440CE6009BA635 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'IPAddress' may not respond to '+localAddressWithPort:'";
+		fRef = CCAE4D6112440C6C009BA635 /* MYPortMapper.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 72;
+		rType = 1;
+	};
+	CCAE4D7812440CE6009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCAE4D6112440C6C009BA635 /* MYPortMapper.m */;
+		name = "MYPortMapper.m: 73";
+		rLen = 0;
+		rLoc = 1426;
+		rType = 0;
+		vrLen = 201;
+		vrLoc = 1390;
+	};
+	CCAE4D7912440CE6009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCAE4D3A12440B85009BA635 /* MYAddressLookup.m */;
+		name = "MYAddressLookup.m: 114";
+		rLen = 5;
+		rLoc = 2661;
+		rType = 0;
+		vrLen = 342;
+		vrLoc = 2538;
+	};
+	CCAE4D7C12440CE9009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCAE4D6112440C6C009BA635 /* MYPortMapper.m */;
+		name = "MYPortMapper.m: 73";
+		rLen = 0;
+		rLoc = 1426;
+		rType = 0;
+		vrLen = 201;
+		vrLoc = 1390;
+	};
+	CCAE4D7D12440CE9009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCAE4D3A12440B85009BA635 /* MYAddressLookup.m */;
+		name = "MYAddressLookup.m: 114";
+		rLen = 5;
+		rLoc = 2661;
+		rType = 0;
+		vrLen = 342;
+		vrLoc = 2538;
+	};
+	CCAE4D8612440D2B009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCAE4D6112440C6C009BA635 /* MYPortMapper.m */;
+		name = "MYPortMapper.m: 73";
+		rLen = 0;
+		rLoc = 1426;
+		rType = 0;
+		vrLen = 201;
+		vrLoc = 1390;
+	};
+	CCAE4D8712440D2B009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 111";
+		rLen = 0;
+		rLoc = 3155;
+		rType = 0;
+		vrLen = 117;
+		vrLoc = 3124;
+	};
+	CCAE4D8812440D2B009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCC14B750F184494004BD04E /* BLIPConnection.h */;
+		name = "BLIPConnection.h: 75";
+		rLen = 0;
+		rLoc = 3243;
+		rType = 0;
+		vrLen = 446;
+		vrLoc = 3066;
+	};
+	CCAE4D8912440D2B009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CC1C89F40F18389F00E71072 /* SyncViewController.m */;
+		name = "SyncViewController.m: 178";
+		rLen = 0;
+		rLoc = 4562;
+		rType = 0;
+		vrLen = 179;
+		vrLoc = 4478;
+	};
+	CCAE4D8A12440D2B009BA635 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Class 'TCPStream' does not implement the 'NSStreamDelegate' protocol";
+		fRef = CCC14B6F0F184494004BD04E /* TCPStream.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 36;
+		rType = 1;
+	};
+	CCAE4D8B12440D2B009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCC14B6F0F184494004BD04E /* TCPStream.m */;
+		name = "TCPStream.m: 37";
+		rLen = 0;
+		rLoc = 873;
+		rType = 0;
+		vrLen = 283;
+		vrLoc = 807;
+	};
+	CCAE4D8C12440D2B009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCAE4D3A12440B85009BA635 /* MYAddressLookup.m */;
+		name = "MYAddressLookup.m: 114";
+		rLen = 5;
+		rLoc = 2661;
+		rType = 0;
+		vrLen = 342;
+		vrLoc = 2538;
+	};
+	CCAE4D8F12440D2D009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CC1C89F40F18389F00E71072 /* SyncViewController.m */;
+		name = "SyncViewController.m: 178";
+		rLen = 0;
+		rLoc = 4562;
+		rType = 0;
+		vrLen = 144;
+		vrLoc = 4559;
+	};
+	CCAE4D9012440D2D009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CC1C89F40F18389F00E71072 /* SyncViewController.m */;
+		name = "SyncViewController.m: 178";
+		rLen = 0;
+		rLoc = 4562;
+		rType = 0;
+		vrLen = 144;
+		vrLoc = 4559;
+	};
+	CCAE4D9112440D2D009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCAE4D3A12440B85009BA635 /* MYAddressLookup.m */;
+		name = "MYAddressLookup.m: 114";
+		rLen = 5;
+		rLoc = 2661;
+		rType = 0;
+		vrLen = 342;
+		vrLoc = 2538;
+	};
+	CCAE4D9412440D3B009BA635 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCAE4D3A12440B85009BA635 /* MYAddressLookup.m */;
+		name = "MYAddressLookup.m: 114";
+		rLen = 5;
+		rLoc = 2661;
+		rType = 0;
+		vrLen = 342;
+		vrLoc = 2538;
 	};
 	CCC14B680F184494004BD04E /* TCPConnection.h */ = {
 		uiCtxt = {
@@ -180,9 +550,9 @@
 	};
 	CCC14B690F184494004BD04E /* TCPConnection.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1237, 6930}}";
-			sepNavSelRange = "{4154, 179}";
-			sepNavVisRange = "{3411, 1071}";
+			sepNavIntBoundsRect = "{{0, 0}, {923, 7080}}";
+			sepNavSelRange = "{2989, 0}";
+			sepNavVisRange = "{2930, 320}";
 		};
 	};
 	CCC14B6A0F184494004BD04E /* TCPEndpoint.h */ = {
@@ -213,11 +583,18 @@
 			sepNavVisRange = "{944, 1723}";
 		};
 	};
+	CCC14B6F0F184494004BD04E /* TCPStream.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {923, 4755}}";
+			sepNavSelRange = "{873, 0}";
+			sepNavVisRange = "{807, 283}";
+		};
+	};
 	CCC14B750F184494004BD04E /* BLIPConnection.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {923, 1560}}";
-			sepNavSelRange = "{887, 0}";
-			sepNavVisRange = "{735, 354}";
+			sepNavIntBoundsRect = "{{0, 0}, {923, 1635}}";
+			sepNavSelRange = "{3243, 0}";
+			sepNavVisRange = "{3066, 446}";
 		};
 	};
 	CCC14B760F184494004BD04E /* BLIPConnection.m */ = {
@@ -262,6 +639,13 @@
 			sepNavVisRange = "{0, 2132}";
 		};
 	};
+	CCC14B880F184494004BD04E /* CollectionUtils.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1237, 5265}}";
+			sepNavSelRange = "{5600, 0}";
+			sepNavVisRange = "{4726, 1899}";
+		};
+	};
 	CCC14B8F0F184494004BD04E /* Test.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {923, 1470}}";
@@ -278,9 +662,9 @@
 	};
 	CCC14B940F184494004BD04E /* GTMNSData+zlib.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {923, 4035}}";
-			sepNavSelRange = "{1520, 0}";
-			sepNavVisRange = "{1425, 320}";
+			sepNavIntBoundsRect = "{{0, 0}, {1237, 4095}}";
+			sepNavSelRange = "{1518, 0}";
+			sepNavVisRange = "{0, 1978}";
 		};
 	};
 	CCC14E610F188A27004BD04E /* WebViewController.h */ = {
