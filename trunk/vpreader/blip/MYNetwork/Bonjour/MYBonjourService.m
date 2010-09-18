@@ -21,8 +21,7 @@ NSString* const kBonjourServiceResolvedAddressesNotification = @"BonjourServiceR
 
 
 @interface MYBonjourService ()
-@property (copy) NSString *hostname;
-@property UInt16 port;
+
 @end
 
 
@@ -65,7 +64,7 @@ NSString* const kBonjourServiceResolvedAddressesNotification = @"BonjourServiceR
 
 
 @synthesize bonjourBrowser=_bonjourBrowser, name=_name, type=_type, domain=_domain, 
-            fullName=_fullName, hostname=_hostname, port=_port, interfaceIndex=_interfaceIndex;
+            fullName=_fullName, interfaceIndex=_interfaceIndex;
 
 
 - (NSString*) description {
@@ -109,6 +108,13 @@ NSString* const kBonjourServiceResolvedAddressesNotification = @"BonjourServiceR
     [_addressLookup stop];
 }
 
+- (void)setHostname:(NSString *)value {
+    if (_hostname != value) {
+        [_hostname release];
+        _hostname = [value copy];
+    }
+}
+
 
 - (NSString*) hostname {
     if (!_startedResolve )
@@ -121,6 +127,12 @@ NSString* const kBonjourServiceResolvedAddressesNotification = @"BonjourServiceR
         [self start];
     return _port;
 }
+
+- (void)setPort:(UInt16)value {
+    _port = value;
+}
+
+
 
 
 #pragma mark -

@@ -23,9 +23,8 @@
     code, and set an instance as the listener's delegate property, in order to be informed
     of important events such as incoming connections. */
 @interface TCPListener : TCPEndpoint
-#if defined(MAC_OS_X_VERSION_10_6) && MAC_OS_X_VERSION_MIN_REQUIRED >= MAC_OS_X_VERSION_10_6
                                 <NSNetServiceDelegate>
-#endif
+
 {
     @private
     uint16_t _port;
