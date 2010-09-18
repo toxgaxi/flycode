@@ -48,11 +48,10 @@
  */
 //@{
 
-/** The hostname of the machine providing this service. */
-@property (readonly, copy) NSString *hostname;
+- (NSString *)hostname;
+- (void)setHostname:(NSString *)value;
 
-/** The IP port number of this service on its host. */
-@property (readonly) UInt16 port;
+- (UInt16)port;
 
 /** Returns a MYDNSLookup object that resolves the raw IP address(es) of this service.
     Subsequent calls to this method will always return the same object. */
